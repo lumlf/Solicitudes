@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solicitudes", "Solicitudes.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexionBaseDatos", "..\ConexionBaseDatos\ConexionBaseDatos.csproj", "{7D1D5288-BD81-4E08-A6C3-8EBFE1AE6263}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConexionBD", "..\ConexionBD\ConexionBD.csproj", "{8FE0FF03-7044-4534-B0F9-6D3AA8658787}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,10 +21,6 @@ Global
 		{7D1D5288-BD81-4E08-A6C3-8EBFE1AE6263}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D1D5288-BD81-4E08-A6C3-8EBFE1AE6263}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D1D5288-BD81-4E08-A6C3-8EBFE1AE6263}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8FE0FF03-7044-4534-B0F9-6D3AA8658787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8FE0FF03-7044-4534-B0F9-6D3AA8658787}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8FE0FF03-7044-4534-B0F9-6D3AA8658787}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8FE0FF03-7044-4534-B0F9-6D3AA8658787}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
