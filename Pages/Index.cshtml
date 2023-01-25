@@ -3,22 +3,37 @@
 @{
     ViewData["Title"] = "Home page";
 }
+<Form method="POST">
+    <div>
+        <!----<ul>-->
+        <div>
+            <div>
+                <label for="cedula">Cédula titular</label>
+            </div>
+            <div>
+                <input type="text" id="cedula" name="numero_cedula_usuario" />
+            </div>
+        </div>
 
-<div>
-    <!----<ul>-->
-        <li>
-        <label for="contrato">Contrato </label>
-        <input type="text" id="contrato" name="numero_contrato_usuario" />
-        </li>
-        <li>
-        <label for="cedula">Cédula titular</label>
-        <input type="text" id="cedula" name="numero_cedula_usuario" />
-        </li>
-        <li>
-        <label for="codigo">Inserte el código que recibió</label>
-        <input type="text" id="codigo" name="codigo_verificacion_usuario" />
+        <div>
+            <div>
+                <label for="contrato">Contrato </label>
+            </div>
+            <div>
+                <input type="text" id="contrato" name="numero_contrato_usuario" />
+            </div>
+        </div>
+    
+        <button type="submit"> Enviar </button>
+    
+        <!--
+            <li>
         
-        <!---<textarea id="codigo" name="user_message"></textarea>-->
-        </li>
-    <!----</ul>-->
-</div>
+            <label for="codigo">Inserte el código que recibió</label>
+            <input type="text" id="codigo" name="codigo_verificacion_usuario" />
+        
+            -<textarea id="codigo" name="user_message"></textarea>
+            </li>-->
+        <!----</ul>-->
+    </div>
+</Form>
